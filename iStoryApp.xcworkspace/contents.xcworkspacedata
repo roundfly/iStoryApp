@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Configuration"
+      name = "Configuration">
+      <FileRef
+         location = "group:AppVersion.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Developer.xcconfig">
+      </FileRef>
+      <FileRef
+         location = "group:Release.xcconfig">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Authentication/Authentication.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:DesignSystem/DesignSystem.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Onboarding/Onboarding.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iStoryApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iStoryKit">
+   </FileRef>
+</Workspace>
