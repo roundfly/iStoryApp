@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FE1E177A26A76A59009F05F8 /* Authentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E177026A76A58009F05F8 /* Authentication.framework */; };
 		FE1E177F26A76A59009F05F8 /* AuthenticationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E177E26A76A59009F05F8 /* AuthenticationTests.swift */; };
-		FE1E178126A76A59009F05F8 /* Authentication.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1E177326A76A58009F05F8 /* Authentication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE1E179926A76A83009F05F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E179826A76A83009F05F8 /* AppDelegate.swift */; };
 		FE1E179B26A76A83009F05F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E179A26A76A83009F05F8 /* SceneDelegate.swift */; };
 		FE1E179D26A76A83009F05F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E179C26A76A83009F05F8 /* ViewController.swift */; };
@@ -61,7 +60,6 @@
 
 /* Begin PBXFileReference section */
 		FE1E177026A76A58009F05F8 /* Authentication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Authentication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE1E177326A76A58009F05F8 /* Authentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
 		FE1E177426A76A58009F05F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1E177926A76A59009F05F8 /* AuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E177E26A76A59009F05F8 /* AuthenticationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTests.swift; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 		FE1E177226A76A58009F05F8 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				FE1E177326A76A58009F05F8 /* Authentication.h */,
 				FE1E177426A76A58009F05F8 /* Info.plist */,
 				FE1E18E926A8905B009F05F8 /* ViewController.swift */,
 			);
@@ -209,7 +206,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1E178126A76A59009F05F8 /* Authentication.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

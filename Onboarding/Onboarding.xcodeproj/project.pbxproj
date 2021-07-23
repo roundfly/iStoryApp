@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FE1E171326A768ED009F05F8 /* Onboarding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E170926A768ED009F05F8 /* Onboarding.framework */; };
 		FE1E171826A768ED009F05F8 /* OnboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E171726A768ED009F05F8 /* OnboardingTests.swift */; };
-		FE1E171A26A768ED009F05F8 /* Onboarding.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1E170C26A768ED009F05F8 /* Onboarding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE1E173026A76955009F05F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E172F26A76955009F05F8 /* AppDelegate.swift */; };
 		FE1E173226A76955009F05F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E173126A76955009F05F8 /* SceneDelegate.swift */; };
 		FE1E173426A76955009F05F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E173326A76955009F05F8 /* ViewController.swift */; };
@@ -60,7 +59,6 @@
 
 /* Begin PBXFileReference section */
 		FE1E170926A768ED009F05F8 /* Onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Onboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE1E170C26A768ED009F05F8 /* Onboarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Onboarding.h; sourceTree = "<group>"; };
 		FE1E170D26A768ED009F05F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1E171226A768ED009F05F8 /* OnboardingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E171726A768ED009F05F8 /* OnboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTests.swift; sourceTree = "<group>"; };
@@ -144,7 +142,6 @@
 		FE1E170B26A768ED009F05F8 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				FE1E170C26A768ED009F05F8 /* Onboarding.h */,
 				FE1E170D26A768ED009F05F8 /* Info.plist */,
 			);
 			path = Onboarding;
@@ -206,7 +203,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1E171A26A768ED009F05F8 /* Onboarding.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,6 @@
 		FE1E180926A77254009F05F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1E180826A77254009F05F8 /* Assets.xcassets */; };
 		FE1E180C26A77254009F05F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E180A26A77254009F05F8 /* LaunchScreen.storyboard */; };
 		FE1E182226A77254009F05F8 /* DesignSystemTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E182126A77254009F05F8 /* DesignSystemTestAppUITests.swift */; };
-		FE1E18B526A79065009F05F8 /* DesignSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1E17E026A771F0009F05F8 /* DesignSystem.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		FE1E17DD26A771F0009F05F8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE1E17E026A771F0009F05F8 /* DesignSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignSystem.h; sourceTree = "<group>"; };
 		FE1E17E126A771F0009F05F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1E17E626A771F0009F05F8 /* DesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E17EB26A771F0009F05F8 /* DesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystemTests.swift; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 		FE1E17DF26A771F0009F05F8 /* DesignSystem */ = {
 			isa = PBXGroup;
 			children = (
-				FE1E17E026A771F0009F05F8 /* DesignSystem.h */,
 				FE1E17E126A771F0009F05F8 /* Info.plist */,
 			);
 			path = DesignSystem;
@@ -171,7 +168,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1E18B526A79065009F05F8 /* DesignSystem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

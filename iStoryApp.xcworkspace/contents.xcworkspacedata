@@ -15,16 +15,22 @@
       </FileRef>
    </Group>
    <FileRef
+      location = "group:Activity/Activity.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Authentication/Authentication.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:DesignSystem/DesignSystem.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:iStoryApp.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Onboarding/Onboarding.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:iStoryApp.xcodeproj">
+      location = "group:Settings/Settings.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:iStoryKit">
