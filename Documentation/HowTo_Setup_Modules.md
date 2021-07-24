@@ -5,7 +5,9 @@ By the module, we can define:
 - A functional service which provides some unique functionality (`StoryClient`, `NetworkClient`, etc.)
 - A shared service which provides functions or resources for other modules (`Analytics`, `DesignSystem`, etc.)
 
-The approach consists of having a single workspace that contains multiple projects or targets exposed as libraries from a local Swift package. One project for the final product (the app) and one project or package for each module. The app depends on the modules and the modules can depend on each other. Each module compiles as a framework that is used by the application target. Modules can depend on each other (no circular dependencies though) and on 3rd party SDKs, handled by Swift Package Manager.
+The approach consists of having a single workspace that contains multiple projects or targets exposed as libraries from a local Swift package. One project for the final product (the app) and one project or package for each module. The app depends on the modules and the modules can depend on each other. Each module compiles as a framework that is used by the application target. 
+
+Modules can depend on each other (no circular dependencies though) and on 3rd party SDKs, handled by Swift Package Manager.
 Each feature module should have 4 targets: Framework target, UnitTests target, Test application target to be able to test the screen and iterate on the related feature as well as a UI tests target to cover the screen by UI tests.
 
 ## How to create a new module
