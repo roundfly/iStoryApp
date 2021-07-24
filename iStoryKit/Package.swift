@@ -75,6 +75,12 @@ let package = Package(
             name: "PageClientTests",
             dependencies: ["PageClientAPI"]),
         .target(name: "PageClient",
-                dependencies: ["PageClientAPI"])
+                dependencies: ["PageClientAPI"]),
+        .target(
+            name: "StorageAccessAPI",
+            dependencies: []),
+        .testTarget(
+            name: "StorageAccessTests",
+            dependencies: ["StorageAccessAPI"])
     ]
 )

@@ -21,6 +21,16 @@
 		FE1E185826A77FC6009F05F8 /* NetworkClientAPI in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = FE1E185726A77FC6009F05F8 /* NetworkClientAPI */; };
 		FE1E185926A77FC6009F05F8 /* NetworkClientAPI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FE1E185726A77FC6009F05F8 /* NetworkClientAPI */; };
 		FE1E187226A78341009F05F8 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E187126A78340009F05F8 /* DesignSystem.framework */; platformFilter = ios; };
+		FE1E1A2726AC25A0009F05F8 /* NeedleFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = FE1E1A2626AC25A0009F05F8 /* NeedleFoundation */; };
+		FE1E1A2E26AC26E6009F05F8 /* RootComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A2D26AC26E6009F05F8 /* RootComponent.swift */; };
+		FE1E1A3626AC273B009F05F8 /* OnboardingBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A3526AC273B009F05F8 /* OnboardingBootstrap.swift */; };
+		FE1E1A3D26AC27A9009F05F8 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A3C26AC27A9009F05F8 /* OnboardingViewModel.swift */; };
+		FE1E1A4226AC27B9009F05F8 /* SplashScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A4126AC27B9009F05F8 /* SplashScreenViewModel.swift */; };
+		FE1E1A4726AC27D1009F05F8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A4626AC27D1009F05F8 /* SplashScreenView.swift */; };
+		FE1E1A4C26AC2842009F05F8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A4B26AC2842009F05F8 /* OnboardingView.swift */; };
+		FE1E1A5126AC2A96009F05F8 /* OnboardingComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A5026AC2A96009F05F8 /* OnboardingComponent.swift */; };
+		FE1E1A5626AC2A9E009F05F8 /* SplashScreenComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A5526AC2A9E009F05F8 /* SplashScreenComponent.swift */; };
+		FE1E1A5F26AC2F82009F05F8 /* DIGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E1A5E26AC2F82009F05F8 /* DIGenerated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +85,15 @@
 		FE1E187126A78340009F05F8 /* DesignSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DesignSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1E189326A78FFA009F05F8 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../../Configuration/Release.xcconfig; sourceTree = "<group>"; };
 		FE1E189426A78FFA009F05F8 /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Developer.xcconfig; path = ../../Configuration/Developer.xcconfig; sourceTree = "<group>"; };
+		FE1E1A2D26AC26E6009F05F8 /* RootComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootComponent.swift; sourceTree = "<group>"; };
+		FE1E1A3526AC273B009F05F8 /* OnboardingBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingBootstrap.swift; sourceTree = "<group>"; };
+		FE1E1A3C26AC27A9009F05F8 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		FE1E1A4126AC27B9009F05F8 /* SplashScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewModel.swift; sourceTree = "<group>"; };
+		FE1E1A4626AC27D1009F05F8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		FE1E1A4B26AC2842009F05F8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FE1E1A5026AC2A96009F05F8 /* OnboardingComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingComponent.swift; sourceTree = "<group>"; };
+		FE1E1A5526AC2A9E009F05F8 /* SplashScreenComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenComponent.swift; sourceTree = "<group>"; };
+		FE1E1A5E26AC2F82009F05F8 /* DIGenerated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DIGenerated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1E1A2726AC25A0009F05F8 /* NeedleFoundation in Frameworks */,
 				FE1E187226A78341009F05F8 /* DesignSystem.framework in Frameworks */,
 				FE1E185426A77FC3009F05F8 /* AnalyticsClientAPI in Frameworks */,
 				FE1E185826A77FC6009F05F8 /* NetworkClientAPI in Frameworks */,
@@ -140,6 +160,10 @@
 		FE1E170B26A768ED009F05F8 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				FE1E1A2C26AC26C1009F05F8 /* Components */,
+				FE1E1A5A26AC2D98009F05F8 /* DI */,
+				FE1E1A1F26AC24D4009F05F8 /* Internal */,
+				FE1E1A2026AC24EA009F05F8 /* Public */,
 				FE1E170D26A768ED009F05F8 /* Info.plist */,
 			);
 			path = Onboarding;
@@ -194,6 +218,67 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
+		FE1E1A1F26AC24D4009F05F8 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A3B26AC2791009F05F8 /* Views */,
+				FE1E1A3A26AC278B009F05F8 /* ViewModels */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		FE1E1A2026AC24EA009F05F8 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A2126AC24F2009F05F8 /* Bootstrap */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		FE1E1A2126AC24F2009F05F8 /* Bootstrap */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A3526AC273B009F05F8 /* OnboardingBootstrap.swift */,
+			);
+			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		FE1E1A2C26AC26C1009F05F8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A2D26AC26E6009F05F8 /* RootComponent.swift */,
+				FE1E1A5026AC2A96009F05F8 /* OnboardingComponent.swift */,
+				FE1E1A5526AC2A9E009F05F8 /* SplashScreenComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FE1E1A3A26AC278B009F05F8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A3C26AC27A9009F05F8 /* OnboardingViewModel.swift */,
+				FE1E1A4126AC27B9009F05F8 /* SplashScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE1E1A3B26AC2791009F05F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A4626AC27D1009F05F8 /* SplashScreenView.swift */,
+				FE1E1A4B26AC2842009F05F8 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE1E1A5A26AC2D98009F05F8 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				FE1E1A5E26AC2F82009F05F8 /* DIGenerated.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -216,6 +301,7 @@
 				FE1E170626A768ED009F05F8 /* Frameworks */,
 				FE1E170726A768ED009F05F8 /* Resources */,
 				FE1E185626A77FC3009F05F8 /* Embed Frameworks */,
+				FE1E1A2B26AC25AD009F05F8 /* Needle */,
 			);
 			buildRules = (
 			);
@@ -225,6 +311,7 @@
 			packageProductDependencies = (
 				FE1E185326A77FC3009F05F8 /* AnalyticsClientAPI */,
 				FE1E185726A77FC6009F05F8 /* NetworkClientAPI */,
+				FE1E1A2626AC25A0009F05F8 /* NeedleFoundation */,
 			);
 			productName = Onboarding;
 			productReference = FE1E170926A768ED009F05F8 /* Onboarding.framework */;
@@ -294,6 +381,7 @@
 				TargetAttributes = {
 					FE1E170826A768ED009F05F8 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					FE1E171126A768ED009F05F8 = {
 						CreatedOnToolsVersion = 12.4;
@@ -316,6 +404,9 @@
 				Base,
 			);
 			mainGroup = FE1E16FF26A768ED009F05F8;
+			packageReferences = (
+				FE1E1A2526AC25A0009F05F8 /* XCRemoteSwiftPackageReference "needle" */,
+			);
 			productRefGroup = FE1E170A26A768ED009F05F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,11 +453,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FE1E1A2B26AC25AD009F05F8 /* Needle */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Needle;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export SOURCEKIT_LOGGING=0 && needle generate Onboarding/DI/DIGenerated.swift Onboarding/Components\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE1E170526A768ED009F05F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1E1A5F26AC2F82009F05F8 /* DIGenerated.swift in Sources */,
+				FE1E1A2E26AC26E6009F05F8 /* RootComponent.swift in Sources */,
+				FE1E1A4226AC27B9009F05F8 /* SplashScreenViewModel.swift in Sources */,
+				FE1E1A4726AC27D1009F05F8 /* SplashScreenView.swift in Sources */,
+				FE1E1A4C26AC2842009F05F8 /* OnboardingView.swift in Sources */,
+				FE1E1A5626AC2A9E009F05F8 /* SplashScreenComponent.swift in Sources */,
+				FE1E1A5126AC2A96009F05F8 /* OnboardingComponent.swift in Sources */,
+				FE1E1A3D26AC27A9009F05F8 /* OnboardingViewModel.swift in Sources */,
+				FE1E1A3626AC273B009F05F8 /* OnboardingBootstrap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +679,7 @@
 		FE1E171E26A768ED009F05F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -574,6 +696,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,6 +705,7 @@
 		FE1E171F26A768ED009F05F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -606,6 +730,7 @@
 		FE1E172126A768ED009F05F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OnboardingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -623,6 +748,7 @@
 		FE1E172226A768ED009F05F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = OnboardingTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -761,6 +887,17 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		FE1E1A2526AC25A0009F05F8 /* XCRemoteSwiftPackageReference "needle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/needle.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.17.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		FE1E185326A77FC3009F05F8 /* AnalyticsClientAPI */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -769,6 +906,11 @@
 		FE1E185726A77FC6009F05F8 /* NetworkClientAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkClientAPI;
+		};
+		FE1E1A2626AC25A0009F05F8 /* NeedleFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1E1A2526AC25A0009F05F8 /* XCRemoteSwiftPackageReference "needle" */;
+			productName = NeedleFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
