@@ -18,6 +18,9 @@
       location = "group:Documentation"
       name = "Documentation">
       <FileRef
+         location = "group:HowTo_Inject_Dependencies_Needle.md">
+      </FileRef>
+      <FileRef
          location = "group:HowTo_Setup_Modules.md">
       </FileRef>
    </Group>
