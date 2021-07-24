@@ -6,9 +6,14 @@ By the module, we can define:
 - A shared service which provides functions or resources for other modules (Analytics, DesignSystem, etc.)
 The approach consists of having a single workspace that contains multiple projects or targets exposed as libraries from a local Swift package. One project for the final product (the app) and one project or package for each module. The app depends on the modules and the modules can depend on each other. Each module compiles as a framework that is used by the application target. Modules can depend on each other (no circular dependencies though) and on 3rd party SDKs, handled by Swift Package Manager.
 Each feature module should have 4 targets: Framework target, UnitTests target, Test application target to be able to test the screen and iterate on the related feature as well as a UI tests target to cover the screen by UI tests.
+
 ## How to create a new module
 To create a new module you should first understand the purpose of this module - screen/feature modules should be done as an Xcode project but services, either functional or utility, can be located inside the `iStoryKit` package or can be a separate Xcode project, Xcode project is preferable for feature modules which have need of build scripts and more than 2 configurations since SPM still lacks these capabilities, otherwise you can create just a target in the iStory package.
-Service modules should receive names with `...Client` suffix. e.g. `StoryClient`. Sometimes we may also decouple the implementation and interface (protocols and domain models) of a service module, in this case please add the "API" suffix to the module name. e.g. `StoryClientAPI`. The purpose of this decoupling is related to the fact that in order to promote a horizontal dependency graph and for Xcode cache to not be needlessly reinvalidated. All feature modules will link the interface modules (ones with API suffix e.g. PageClientAPI) while from the main app target we will link and inject the live implementation into the modules themselves (e.g. PageClient). This for us provides a guarantee that the cache won't be often invalidated since a public API is not expected to change while we're free to iterate on the implementation freely. Other benefits of this approach is near instantenous build times of feature modules and that it enables us to stub out all the live implementations with mock ones at will.
+
+Service modules should receive names with `Client` suffix. e.g. `StoryClient`. Sometimes we may also decouple the implementation and interface (protocols and domain models) of a service module, in this case please add the "API" suffix to the module name. e.g. `StoryClientAPI`. The purpose of this decoupling is related to the fact that in order to promote a horizontal dependency graph and for Xcode cache to not be needlessly reinvalidated. 
+
+All feature modules will link the interface modules (ones with API suffix e.g. PageClientAPI) while from the main app target we will link and inject the live implementation into the modules themselves (e.g. PageClient). This for us provides a guarantee that the cache won't be often invalidated since a public API is not expected to change while we're free to iterate on the implementation freely. Other benefits of this approach is near instantenous build times of feature modules and that it enables us to stub out all the live implementations with mock ones at will.
+
 ### How to create a new Xcode project module
 1. Open new project dialog in Xcode ( File -> New -> Project -> Framework template )
 2. Bundle identifier of the project should be `com.iStory.iStoryApp.{name_of_the_module}`
@@ -61,6 +66,7 @@ All modules must have the same version as the app, so the only source of truth i
 6. Select `Developer` configuration for the project (not a target) in `Debug`, select `Release` configuration for the project (not a target) in `Release`
 7. Open `Info.plist` of your module
 8. Change `Bundle version string (short)` from `$(MARKETING_VERSION)` to `$(APP_VERSION)`
+
 ## How to add dependencies
 ### How to add dependencies to your module
 Some modules require dependencies such as other screen modules or services. For package modules, you can just simply edit `Package.swift` of `iStoryKit`. For the Xcode project module use these actions:
