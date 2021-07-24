@@ -17,7 +17,6 @@
 		FE1E192B26AB588B009F05F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E192926AB588B009F05F8 /* LaunchScreen.storyboard */; };
 		FE1E194126AB588B009F05F8 /* SettingsTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E194026AB588B009F05F8 /* SettingsTestAppUITests.swift */; };
 		FE1E1A0226AB5D48009F05F8 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E1A0126AB5D48009F05F8 /* DesignSystem.framework */; };
-		FE1E1A0326AB5D48009F05F8 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E1A0126AB5D48009F05F8 /* DesignSystem.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,20 +35,6 @@
 			remoteInfo = SettingsTestApp;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FE1E1A0426AB5D48009F05F8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FE1E1A0326AB5D48009F05F8 /* DesignSystem.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FE1E18FA26AB5867009F05F8 /* Settings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Settings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,7 +194,6 @@
 				FE1E18F626AB5867009F05F8 /* Sources */,
 				FE1E18F726AB5867009F05F8 /* Frameworks */,
 				FE1E18F826AB5867009F05F8 /* Resources */,
-				FE1E1A0426AB5D48009F05F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

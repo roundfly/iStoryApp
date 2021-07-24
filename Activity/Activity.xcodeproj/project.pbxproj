@@ -19,7 +19,6 @@
 		FE1E19EA26AB5B72009F05F8 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FE1E19E826AB5B72009F05F8 /* Release.xcconfig */; };
 		FE1E19EB26AB5B72009F05F8 /* Developer.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = FE1E19E926AB5B72009F05F8 /* Developer.xcconfig */; };
 		FE1E19FD26AB5D3A009F05F8 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E19F926AB5D34009F05F8 /* DesignSystem.framework */; };
-		FE1E19FE26AB5D3A009F05F8 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E19F926AB5D34009F05F8 /* DesignSystem.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,20 +37,6 @@
 			remoteInfo = ActivityTestApp;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		FE1E19FF26AB5D3A009F05F8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				FE1E19FE26AB5D3A009F05F8 /* DesignSystem.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FE1E198226AB5A62009F05F8 /* Activity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Activity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,7 +196,6 @@
 				FE1E197E26AB5A62009F05F8 /* Sources */,
 				FE1E197F26AB5A62009F05F8 /* Frameworks */,
 				FE1E198026AB5A62009F05F8 /* Resources */,
-				FE1E19FF26AB5D3A009F05F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

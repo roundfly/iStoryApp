@@ -21,7 +21,6 @@
 		FE1E185826A77FC6009F05F8 /* NetworkClientAPI in Frameworks */ = {isa = PBXBuildFile; platformFilter = ios; productRef = FE1E185726A77FC6009F05F8 /* NetworkClientAPI */; };
 		FE1E185926A77FC6009F05F8 /* NetworkClientAPI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FE1E185726A77FC6009F05F8 /* NetworkClientAPI */; };
 		FE1E187226A78341009F05F8 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E187126A78340009F05F8 /* DesignSystem.framework */; platformFilter = ios; };
-		FE1E187326A78341009F05F8 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E187126A78340009F05F8 /* DesignSystem.framework */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FE1E187326A78341009F05F8 /* DesignSystem.framework in Embed Frameworks */,
 				FE1E185526A77FC3009F05F8 /* AnalyticsClientAPI in Embed Frameworks */,
 				FE1E185926A77FC6009F05F8 /* NetworkClientAPI in Embed Frameworks */,
 			);

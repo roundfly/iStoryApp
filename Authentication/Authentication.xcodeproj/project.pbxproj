@@ -16,13 +16,12 @@
 		FE1E17A226A76A83009F05F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1E17A126A76A83009F05F8 /* Assets.xcassets */; };
 		FE1E17A526A76A83009F05F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1E17A326A76A83009F05F8 /* LaunchScreen.storyboard */; };
 		FE1E17BB26A76A83009F05F8 /* AuthenticationTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E17BA26A76A83009F05F8 /* AuthenticationTestAppUITests.swift */; };
-		FE1E185C26A77FE1009F05F8 /* AnalyticsClientAPI in Frameworks */ = {isa = PBXBuildFile; productRef = FE1E185B26A77FE1009F05F8 /* AnalyticsClientAPI */; };
-		FE1E185D26A77FE1009F05F8 /* AnalyticsClientAPI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FE1E185B26A77FE1009F05F8 /* AnalyticsClientAPI */; };
 		FE1E186026A78070009F05F8 /* NetworkClientAPI in Frameworks */ = {isa = PBXBuildFile; productRef = FE1E185F26A78070009F05F8 /* NetworkClientAPI */; };
 		FE1E186126A78070009F05F8 /* NetworkClientAPI in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FE1E185F26A78070009F05F8 /* NetworkClientAPI */; };
 		FE1E186F26A78339009F05F8 /* DesignSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E186E26A78339009F05F8 /* DesignSystem.framework */; };
-		FE1E187026A78339009F05F8 /* DesignSystem.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E186E26A78339009F05F8 /* DesignSystem.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FE1E18EA26A8905B009F05F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1E18E926A8905B009F05F8 /* ViewController.swift */; };
+		FE1E1A0F26ABA254009F05F8 /* AnalyticsClient in Frameworks */ = {isa = PBXBuildFile; productRef = FE1E1A0E26ABA254009F05F8 /* AnalyticsClient */; };
+		FE1E1A1026ABA254009F05F8 /* AnalyticsClient in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FE1E1A0E26ABA254009F05F8 /* AnalyticsClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +48,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FE1E187026A78339009F05F8 /* DesignSystem.framework in Embed Frameworks */,
-				FE1E185D26A77FE1009F05F8 /* AnalyticsClientAPI in Embed Frameworks */,
 				FE1E186126A78070009F05F8 /* NetworkClientAPI in Embed Frameworks */,
+				FE1E1A1026ABA254009F05F8 /* AnalyticsClient in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,8 +85,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1E186F26A78339009F05F8 /* DesignSystem.framework in Frameworks */,
-				FE1E185C26A77FE1009F05F8 /* AnalyticsClientAPI in Frameworks */,
 				FE1E186026A78070009F05F8 /* NetworkClientAPI in Frameworks */,
+				FE1E1A0F26ABA254009F05F8 /* AnalyticsClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,8 +226,8 @@
 			);
 			name = Authentication;
 			packageProductDependencies = (
-				FE1E185B26A77FE1009F05F8 /* AnalyticsClientAPI */,
 				FE1E185F26A78070009F05F8 /* NetworkClientAPI */,
+				FE1E1A0E26ABA254009F05F8 /* AnalyticsClient */,
 			);
 			productName = Authentication;
 			productReference = FE1E177026A76A58009F05F8 /* Authentication.framework */;
@@ -774,13 +772,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FE1E185B26A77FE1009F05F8 /* AnalyticsClientAPI */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = AnalyticsClientAPI;
-		};
 		FE1E185F26A78070009F05F8 /* NetworkClientAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = NetworkClientAPI;
+		};
+		FE1E1A0E26ABA254009F05F8 /* AnalyticsClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AnalyticsClient;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -12,7 +12,7 @@ import NetworkClientAPI
 public struct NetworkClient: NetworkClientService {
 
     public func perform<T: Codable>(_ request: NetworkRequest) -> AnyPublisher<T, Error> {
-        // do stuff with Alamofire here
+        // perform network request with Alamofire
         fatalError()
     }
 }
